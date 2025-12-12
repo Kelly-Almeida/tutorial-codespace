@@ -1,0 +1,10 @@
+string name = "Karol";
+Console.WriteLine("Welcome again " + name);
+string aFriend = "to Bill";
+Console.WriteLine("-" + aFriend);
+aFriend = "Mike";
+Console.WriteLine("AND " + aFriend + ", too!");
+Console.WriteLine($"PT-BR explanation: Em C# usamos variáveis para armazenar informações como o nome '{name}',");
+Console.WriteLine("PT-BR explanation: para podermos roda-las no terminal usamos o  comando 'Console.WriteLine(), a qual recebe em sua aspas um parametro que irá aparecer na tela.'");
+Console.WriteLine("PT-BR explanation: Ademais o uso do caractere '+' é responsável pela concatenação das mensagens em string e as variáveis. Como também usamos o '$' para essa mesma função no começo do parametro para simplificar essa ligação. (exemplos dentro do código).");
+Console.WriteLine($"String internal functions: Length (mensure the length of the string and return the number of caracters) example: name.length /name ='Karol'/, return the number {name.Length}.");
